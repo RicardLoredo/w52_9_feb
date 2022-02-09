@@ -10,7 +10,26 @@
     <!-- Encabezado -->
     <header>
       <h1>HTML-Elementos de agrupación</h1>
-      <nav></nav>
+      <nav>
+        <ul>
+          <!-- Link normal -->
+          <li>
+            <a href="https://www.google.com">google</a>
+          </li>
+          <!-- Link hacia una pagina dentro de tu sitio -->
+          <li>
+              <a href="productos.html">Ir a productos</a>
+          </li>
+          <!-- Link hacia alguna parte del documento -->
+          <li>
+              <a href="#letras">Ir al footer</a>
+          </li>
+          <!-- Link tel -->
+          <li>
+              <a href="tel:8620938211">8620938211</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- Contenido -->
     <main>
@@ -27,7 +46,9 @@
           voluptatibus architecto omnis maxime animi.
         </p>
         <p>La clase de FDW es de <time>7:00</time> a <time>8:40</time></p>
-        <p>El examen es para el <time datetime="2022-03-23 09:00">martes</time></p>
+        <p>
+          El examen es para el <time datetime="2022-03-23 09:00">martes</time>
+        </p>
 
         <!-- Bloque para citas -->
         <blockquote cite="https://www.asciiart.eu/">
@@ -116,7 +137,7 @@
       <address>
         <p>Desarrollador: Yo mero</p>
       </address>
-      <small
+      <small id="letras"
         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minus
         ut accusamus iste eos recusandae! Eos reprehenderit nostrum dignissimos
         similique distinctio tempora nam enim deserunt, quibusdam iusto maxime
